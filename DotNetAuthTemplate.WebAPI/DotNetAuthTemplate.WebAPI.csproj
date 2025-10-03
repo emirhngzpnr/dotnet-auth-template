@@ -16,4 +16,8 @@
     <ProjectReference Include="..\DotNetAuthTemplate.Persistence\DotNetAuthTemplate.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

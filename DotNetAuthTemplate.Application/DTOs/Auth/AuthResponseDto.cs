@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DotNetAuthTemplate.Application.DTOs.Auth
 {
-    internal class AuthResponseDto
+    public class AuthResponseDto
     {
+        public string Token { get; set; } = string.Empty;
+        public string email { get; set; } = string.Empty;
+        // public DateTime Expiration { get; set; }
     }
 }

@@ -16,4 +16,10 @@
     <ProjectReference Include="..\DotNetAuthTemplate.Domain\DotNetAuthTemplate.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mapping\" />
+    <Folder Include="Validation\" />
+    <Folder Include="UseCases\" />
+  </ItemGroup>
+
 </Project>

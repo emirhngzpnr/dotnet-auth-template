@@ -24,4 +24,8 @@
     <ProjectReference Include="..\DotNetAuthTemplate.Domain\DotNetAuthTemplate.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
